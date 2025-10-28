@@ -485,6 +485,105 @@
                 display: block;
             }
         }
+
+        /* Testimonials */
+        #testimonials {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .testimonial-quote {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .testimonial-quote::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--accent);
+            position: absolute;
+            left: -1rem;
+            top: -1rem;
+            font-family: 'Georgia', serif;
+            opacity: 0.3;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .testimonial-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .testimonial-info h4 {
+            color: var(--primary);
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-info p {
+            color: var(--gray);
+            margin: 0.25rem 0 0 0;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-rating {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonial-quote {
+                font-size: 1rem;
+                padding-left: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -622,6 +721,59 @@
                 <div class="target-item">
                     <i>🤝</i>
                     <h3>Dé partner voor MKB en Grootbedrijven in uw regio</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Wat Onze Klanten Zeggen</h2>
+                <p>Vertrouwd door organisaties die beveiliging serieus nemen</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        Praesidion heeft de beveiliging van ons logistiek centrum volledig overgenomen. Hun vaste beveiligers kennen onze processen door en door. De rapportage is altijd op tijd en volledig. Continuïteit is nooit een probleem geweest, zelfs niet tijdens drukke periodes.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JD</div>
+                        <div class="testimonial-info">
+                            <h4>Directeur Logistiek</h4>
+                            <p>Distributiecentrum, Limburg</p>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        De combinatie van vaste inzet en flexibiliteit maakt Praesidion uniek. Ze hebben binnen 24 uur altijd een vervanger beschikbaar wanneer dat nodig is. Dat geeft ons veel rust bij het runnen van onze zorginstelling.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MV</div>
+                        <div class="testimonial-info">
+                            <h4>Facility Manager</h4>
+                            <p>Zorginstelling, Zuid-Limburg</p>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        Sinds Praesidion onze beveiliging verzorgt, slapen we weer rustig. Het team is professioneel, de planning is transparant en we hebben één vast aanspreekpunt. Dat is precies wat we nodig hadden voor ons kantorencomplex.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">PW</div>
+                        <div class="testimonial-info">
+                            <h4>Eigenaar Kantorencomplex</h4>
+                            <p>Business Park, Limburg</p>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
