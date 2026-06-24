@@ -1,16 +1,16 @@
-# Praesidion Security — Security Sales Monolith Limburg
+# Praesidion Security — Marktleiderplatform Limburg
 
 ## Doel
-Praesidion moet de centrale commerciële ingang worden voor alles wat met beveiliging in Limburg te maken heeft. Niet alleen aanvragen die direct door Praesidion zelf worden ingevuld, maar ook aanvragen die na intake beter passen bij partners.
+Praesidion moet zich positioneren als de meest herkenbare security specialist van Limburg: professioneel, breed vindbaar en sterk in regie over beveiligingsvragen.
 
 ## Positionering
-- Eén loket voor beveiligingsvragen in Limburg.
+- Security specialist voor beveiligingsvragen in Limburg.
 - Zelf leveren waar Praesidion operationeel en commercieel goed past.
-- Warm doorzetten naar geschikte partners wanneer specialistische capaciteit, locatie, schaal of vergunningstechniek daarom vraagt.
-- Praesidion blijft eigenaar van de leadkwalificatie, relatie en opvolgdiscipline.
+- Waar aanvullende specialismen nodig zijn, blijft de opdrachtgever geholpen via zorgvuldige regie en passende opvolging.
+- Praesidion bewaakt kwaliteit, relatie en opvolgdiscipline.
 
-## Leadvangst-laag
-1. Brede hub: `/beveiliging-aanvragen-limburg/`.
+## Marktleider-laag
+1. Specialistische hub: `/beveiliging-aanvragen-limburg/`.
 2. Dienst × regio SEO-cluster: bestaande 385 pagina's.
 3. Sectorintentie: zorg, logistiek, bouw, evenementen, retail, industrie, hospitality, publieke locaties.
 4. Acute vraag: tijdelijke beveiliging, incident, overbrugging, spoedbezetting.
@@ -42,11 +42,11 @@ Minimaal registreren per partner:
 - kwaliteitssignalen en incidenten;
 - laatste evaluatie.
 
-## Sales funnel
-1. Zoekvraag komt binnen via hub, lokale pagina, mail, telefoon of referral.
+## Aanvraag- en opvolgproces
+1. Aanvraag komt binnen via hub, lokale pagina, mail, telefoon of referral.
 2. Intake binnen 1 werkdag.
 3. Kwalificatie: waarde, urgentie, dienst, regio, risico, fit.
-4. Besluit: zelf doen / partner / afwijzen / extra info nodig.
+4. Besluit: voorstel uitwerken / extra expertise betrekken / afwijzen / extra info nodig.
 5. Opvolging: voorstel, intakegesprek of warme overdracht.
 6. CRM-status en reminder.
 7. Na 7/14/30 dagen opvolging en conversiecontrole.
@@ -58,8 +58,8 @@ Minimaal registreren per partner:
 
 ## Eerste 14 dagen uitvoering
 1. Hub live zetten en linken vanaf homepage.
-2. Leadformulier of mailto-intake vervangen door echt formulier/CRM zodra backend beschikbaar is.
-3. Partnerregister opzetten.
+2. Mailto-intake vervangen door echt formulier/CRM zodra backend beschikbaar is.
+3. Expertise- en partnerregister opzetten.
 4. Top 25 Limburgse zoekintenties selecteren voor verdiepende sectorpagina's.
 5. Wekelijkse marketing monitor gebruiken om nieuwe pagina's/haakjes te bepalen.
 6. SSL/custom-domain gate oplossen zodat indexatie niet wordt afgeremd.

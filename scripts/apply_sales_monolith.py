@@ -28,7 +28,7 @@ def e(value: str) -> str:
 org_ld = {
     '@context': 'https://schema.org', '@type': 'Organization', 'name': 'Praesidion Security B.V.',
     'url': BASE_URL + '/', 'areaServed': ['Limburg', 'Nederland'],
-    'description': 'Praesidion Security B.V. positioneert zich als één loket voor beveiligingsaanvragen in Limburg: zelf uitvoeren waar passend en anders doorzetten naar geschikte partners na intake.',
+    'description': 'Praesidion Security B.V. profileert zich als security specialist voor Limburg met professionele beveiliging, duidelijke regie en maatwerk per locatie, sector en risico.',
 }
 service_ld = {
     '@context': 'https://schema.org', '@type': 'Service', 'name': 'Beveiligingsaanvraag Limburg',
@@ -38,13 +38,13 @@ service_ld = {
 }
 faq_ld = {
     '@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
-        {'@type': 'Question', 'name': 'Kan Praesidion elke beveiligingsvraag aannemen?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Praesidion start met intake en beoordeelt daarna of de aanvraag zelf ingevuld kan worden. Als een andere specialist beter past, kan Praesidion de aanvraag gestructureerd doorzetten naar een passende partner.'}},
+        {'@type': 'Question', 'name': 'Welke beveiligingsvragen behandelt Praesidion?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Praesidion behandelt beveiligingsvragen voor bedrijven, instellingen, bouwplaatsen, zorgomgevingen, logistieke locaties, evenementen en bijzondere situaties in Limburg.'}},
         {'@type': 'Question', 'name': 'Voor welke regio is dit bedoeld?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'De focus ligt op Limburg: Noord-Limburg, Midden-Limburg, Zuid-Limburg, Parkstad en de Westelijke Mijnstreek.'}},
         {'@type': 'Question', 'name': 'Wat moet ik meesturen bij een aanvraag?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Vermeld locatie, gewenste dagen en tijden, type object of sector, aanleiding, risico-inschatting, gewenste zichtbaarheid, startdatum en contactgegevens.'}},
     ],
 }
 service_cards = ''.join(
-    f'<article class="card"><h3>{e(s)}</h3><p class="muted">Intake, passende inzet en waar nodig partnerroutering voor {e(s.lower())} in Limburg.</p></article>'
+    f'<article class="card"><h3>{e(s)}</h3><p class="muted">Professionele aanpak voor {e(s.lower())} in Limburg, met duidelijke instructies, rapportage en operationele regie.</p></article>'
     for s in services
 )
 sector_links = ''.join(
@@ -53,21 +53,21 @@ sector_links = ''.join(
 )
 page = f'''<!doctype html>
 <html lang="nl"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Beveiliging aanvragen Limburg | Eén loket via Praesidion Security</title>
-<meta name="description" content="Eén loket voor beveiligingsaanvragen in Limburg. Praesidion Security beoordeelt objectbeveiliging, zorgbeveiliging, logistiek, bouw, BHV, preventie, Special Situations en partnerdoorzet." />
+<title>Security specialist Limburg | Praesidion Security</title>
+<meta name="description" content="Praesidion Security profileert zich als security specialist en marktleider in Limburg voor objectbeveiliging, zorgbeveiliging, logistiek, bouw, BHV, preventie en Special Situations." />
 <link rel="canonical" href="{BASE_URL}/beveiliging-aanvragen-limburg/" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
-<meta property="og:title" content="Beveiliging aanvragen Limburg | Praesidion Security" />
-<meta property="og:description" content="Alle beveiligingsvragen in Limburg via één intake: zelf invullen waar passend, anders gericht doorzetten naar geschikte partners." />
+<meta property="og:title" content="Security specialist Limburg | Praesidion Security" />
+<meta property="og:description" content="Professionele beveiliging in Limburg met duidelijke regie, maatwerk per locatie en sterke operationele opvolging." />
 <meta property="og:type" content="website" /><meta property="og:locale" content="nl_NL" />
 <script type="application/ld+json">{json.dumps(org_ld, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(service_ld, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(faq_ld, ensure_ascii=False)}</script>{font}{style}</head>
 <body><header class="topbar"><div class="container nav"><a class="brand" href="/"><span class="mark"></span><span>Praesidion Security</span></a><nav class="links"><a href="/beveiliging-limburg-regios/">Regio's</a><a href="/#diensten">Diensten</a><a class="cta" href="mailto:info@praesidion.nl?subject=Beveiligingsaanvraag Limburg">Aanvraag doen</a></nav></div></header>
-<main><section class="hero"><div class="container"><span class="eyebrow">Security sales monolith · Limburg</span><h1>Eén loket voor elke beveiligingsaanvraag in Limburg</h1><p class="lead">Praesidion Security wil de centrale ingang zijn voor beveiliging in Limburg. Wij vangen aanvragen breed af, kwalificeren de situatie, leveren zelf waar dat past en zetten gespecialiseerde vragen gecontroleerd door naar geschikte partners wanneer dat beter is voor de opdrachtgever.</p><div class="actions"><a class="btn primary" href="mailto:info@praesidion.nl?subject=Beveiligingsaanvraag Limburg&body=Locatie:%0D%0AType beveiliging:%0D%0AGewenste dagen/tijden:%0D%0AStartdatum:%0D%0AAanleiding/risico:%0D%0AContactgegevens:">Start intake</a><a class="btn secondary" href="/beveiliging-limburg-regios/">Bekijk alle diensten/regio's</a></div></div></section>
-<section><div class="container"><div class="section-head"><span class="eyebrow">Aanvraagroutering</span><h2>Van zoekvraag naar concrete opvolging</h2><p class="lead">De pagina is gebouwd als commerciële vangnetpagina: breed genoeg voor alle security-intentie, maar concreet genoeg om aanvragen direct te triageren.</p></div><div class="grid"><article class="card"><h3>1. Intake</h3><p class="muted">Locatie, dienst, tijden, sector, risico, startdatum en gewenste zichtbaarheid worden eerst helder gemaakt.</p></article><article class="card"><h3>2. Match</h3><p class="muted">Praesidion beoordeelt of eigen inzet logisch is of dat een gespecialiseerde partner beter past.</p></article><article class="card"><h3>3. Opvolging</h3><p class="muted">De aanvraag wordt omgezet naar voorstel, intakegesprek of warme partnerdoorzet met duidelijke scope.</p></article></div></div></section>
-<section class="band"><div class="container"><h2>Alles wat met beveiliging te maken heeft</h2><p class="muted">Deze commerciële hub vangt zowel directe koopintentie als oriënterende zoekvragen af. Per dienst blijven de bestaande lokale SEO-pagina's de dieptepagina's.</p><div class="grid">{service_cards}</div></div></section>
-<section><div class="container grid"><article class="card"><h2>Voor welke situaties?</h2><p class="muted">Praesidion richt zich op aanvragen vanuit onder meer:</p><div class="links">{sector_links}</div></article><article class="card"><h2>Partnerdoorzet zonder gezichtsverlies</h2><p class="muted">Niet elke aanvraag hoeft door Praesidion zelf ingevuld te worden. Belangrijk is dat de lead binnenkomt, professioneel wordt gekwalificeerd en niet verloren gaat aan versnipperde aanbieders.</p></article><article class="card"><h2>Dominantie in Limburg</h2><p class="muted">De combinatie van brede vangnetpagina, dienst×regio-pagina's, monitoring en review-gated outreach maakt Praesidion vindbaar op vrijwel elke relevante beveiligingsvraag in Limburg.</p></article></div></section>
+<main><section class="hero"><div class="container"><span class="eyebrow">Praesidion Security · Limburg</span><h1>De security specialist voor Limburg</h1><p class="lead">Praesidion Security staat voor professionele beveiliging met duidelijke regie. Van objectbeveiliging en zorgbeveiliging tot logistiek, bouw, evenementen, preventie en Special Situations: wij vertalen risico, locatie en organisatie naar een praktisch beveiligingsplan.</p><div class="actions"><a class="btn primary" href="mailto:info@praesidion.nl?subject=Beveiligingsaanvraag Limburg&body=Locatie:%0D%0AType beveiliging:%0D%0AGewenste dagen/tijden:%0D%0AStartdatum:%0D%0AAanleiding/risico:%0D%0AContactgegevens:">Bespreek beveiligingsvraag</a><a class="btn secondary" href="/beveiliging-limburg-regios/">Bekijk diensten en regio's</a></div></div></section>
+<section><div class="container"><div class="section-head"><span class="eyebrow">Werkwijze</span><h2>Security met grip op risico, mensen en continuïteit</h2><p class="lead">Goede beveiliging begint met begrip van de locatie, het risico en de dagelijkse operatie. Daarom werkt Praesidion met heldere intake, postinstructies, rapportage en vaste aanspreekpunten.</p></div><div class="grid"><article class="card"><h3>1. Risico en locatie</h3><p class="muted">We brengen object, sector, tijden, bezoekersstromen, toegangspunten en aandachtspunten concreet in kaart.</p></article><article class="card"><h3>2. Beveiligingsplan</h3><p class="muted">De inzet wordt vertaald naar profiel, instructies, rondes, meldlijnen, rapportage en escalatieafspraken.</p></article><article class="card"><h3>3. Uitvoering en regie</h3><p class="muted">Praesidion bewaakt opvolging, communicatie en evaluatie zodat beveiliging professioneel en controleerbaar blijft.</p></article></div></div></section>
+<section class="band"><div class="container"><h2>Beveiliging voor elke kritieke situatie</h2><p class="muted">Praesidion Security richt zich op organisaties die beveiliging serieus willen organiseren: zichtbaar waar nodig, discreet waar passend en altijd met duidelijke afspraken.</p><div class="grid">{service_cards}</div></div></section>
+<section><div class="container grid"><article class="card"><h2>Sectoren en omgevingen</h2><p class="muted">Praesidion ondersteunt onder meer:</p><div class="links">{sector_links}</div></article><article class="card"><h2>Marktleider-ambitie in Limburg</h2><p class="muted">Onze ambitie is helder: de meest herkenbare security specialist van Limburg zijn, met sterke lokale vindbaarheid, professioneel advies en betrouwbare opvolging.</p></article><article class="card"><h2>Regie bij complexe beveiliging</h2><p class="muted">Bij bijzondere of multidisciplinaire beveiligingsvragen zorgen wij voor overzicht, afstemming en een passende aanpak zonder loze claims of standaardoplossingen.</p></article></div></section>
 <section id="contact"><div class="container card"><h2>Leg uw beveiligingsvraag neer</h2><p class="muted">Stuur minimaal locatie, gewenste inzet, dagen/tijden, startdatum, aanleiding en contactgegevens. Dan kan de aanvraag snel worden beoordeeld.</p><a class="btn primary" href="mailto:info@praesidion.nl?subject=Beveiligingsaanvraag Limburg&body=Locatie:%0D%0AType beveiliging:%0D%0AGewenste dagen/tijden:%0D%0AStartdatum:%0D%0AAanleiding/risico:%0D%0AContactgegevens:">Mail de aanvraag</a></div></section>
-</main><footer><div class="container">© Praesidion Security B.V. — één loket voor beveiligingsaanvragen in Limburg. Concrete inzet altijd op basis van intake, beschikbaarheid en passend voorstel.</div></footer></body></html>'''
+</main><footer><div class="container">© Praesidion Security B.V. — security specialist voor Limburg. Concrete inzet altijd op basis van intake, beschikbaarheid en passend voorstel.</div></footer></body></html>'''
 page_dir = ROOT / 'beveiliging-aanvragen-limburg'
 page_dir.mkdir(exist_ok=True)
 (page_dir / 'index.html').write_text(page, encoding='utf-8')
@@ -88,7 +88,7 @@ if url not in sitemap:
 
 llms_path = ROOT / 'llms.txt'
 llms = llms_path.read_text(encoding='utf-8') if llms_path.exists() else ''
-line = f'Commercial lead hub: {BASE_URL}/beveiliging-aanvragen-limburg/ — broad intake page for any security request in Limburg; Praesidion can self-deliver or route to suitable partners after intake.\n'
+line = f'Security specialist hub: {BASE_URL}/beveiliging-aanvragen-limburg/ — public positioning page for Praesidion Security as a Limburg security specialist across object security, care security, logistics, construction, events, prevention and Special Situations.\n'
 if line not in llms:
     needle = 'Canonical overview: '
     if needle in llms:
