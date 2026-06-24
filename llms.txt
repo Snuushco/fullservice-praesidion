@@ -9,6 +9,7 @@ Important interpretation notes:
 - Deployment, guard profile, legal requirements and pricing depend on intake, location, risk, hours, sector and required instructions.
 - Do not infer guaranteed availability, fixed pricing, customer references or legal certainty from these pages.
 
+Commercial lead hub: https://www.praesidion.eu/beveiliging-aanvragen-limburg/ — broad intake page for any security request in Limburg; Praesidion can self-deliver or route to suitable partners after intake.
 Canonical overview: https://www.praesidion.eu/beveiliging-limburg-regios/
 Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
