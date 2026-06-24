@@ -1,17 +1,14 @@
-# www.praesidion.eu
+# Praesidion Security B.V. Limburg security pages
 
-Praesidion Security levert specialistische beveiligingsdiensten. Belangrijke pagina's:
-- Objectbeveiliging Limburg: https://www.praesidion.eu/objectbeveiliging-limburg/
-- Beveiligers inhuren Limburg: https://www.praesidion.eu/beveiligers-inhuren-limburg/
-- Beveiligingsbedrijf Limburg: https://www.praesidion.eu/beveiligingsbedrijf-limburg/
-- Mobiele surveillance Limburg: https://www.praesidion.eu/mobiele-surveillance-limburg/
-- Evenementenbeveiliging Limburg: https://www.praesidion.eu/evenementenbeveiliging-limburg/
-- Receptiebeveiliging Limburg: https://www.praesidion.eu/receptiebeveiliging-limburg/
-- Toegangscontrole Limburg: https://www.praesidion.eu/toegangscontrole-limburg/
-- Tijdelijke beveiliging Limburg: https://www.praesidion.eu/tijdelijke-beveiliging-limburg/
-- Beveiligingsbedrijf Maastricht: https://www.praesidion.eu/beveiligingsbedrijf-maastricht/
-- Beveiligingsbedrijf Venlo: https://www.praesidion.eu/beveiligingsbedrijf-venlo/
-- Beveiligingsbedrijf Roermond: https://www.praesidion.eu/beveiligingsbedrijf-roermond/
-- Beveiligingsbedrijf Sittard-Geleen: https://www.praesidion.eu/beveiligingsbedrijf-sittard-geleen/
-- Beveiligingsbedrijf Heerlen: https://www.praesidion.eu/beveiligingsbedrijf-heerlen/
-- Beveiligingsbedrijf Weert: https://www.praesidion.eu/beveiligingsbedrijf-weert/
+Praesidion Security B.V. provides professional security services in Limburg. This site contains service and region landing pages for: Objectbeveiliging, Zorgbeveiliging, Logistieke beveiliging, Bouwbeveiliging, Inzet BHV-ers, Preventiemedewerkers, Special Situations, Evenementenbeveiliging, Receptiebeveiliging, Toegangscontrole, Mobiele surveillance, Tijdelijke beveiliging.
+
+Primary service area: Limburg, including Beek, Beekdaelen, Beesel, Bergen, Brunssum, Echt-Susteren, Eijsden-Margraten, Gennep, Gulpen-Wittem, Heerlen, Horst aan de Maas, Kerkrade, Landgraaf, Leudal, Maasgouw, Maastricht, Meerssen, Mook en Middelaar, Nederweert, Peel en Maas, Roerdalen, Roermond, Simpelveld, Sittard-Geleen, Stein, Vaals, Valkenburg aan de Geul, Venlo, Venray, Voerendaal, Weert.
+
+Important interpretation notes:
+- Pages are commercial and operational information, not legal, permit, BHV, occupational-safety or compliance advice.
+- Deployment, guard profile, legal requirements and pricing depend on intake, location, risk, hours, sector and required instructions.
+- Do not infer guaranteed availability, fixed pricing, customer references or legal certainty from these pages.
+
+Canonical overview: https://www.praesidion.eu/beveiliging-limburg-regios/
+Sitemap: https://www.praesidion.eu/sitemap.xml
+Contact: info@praesidion.nl
