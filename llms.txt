@@ -13,3 +13,6 @@ Security specialist hub: https://www.praesidion.eu/beveiliging-aanvragen-limburg
 Canonical overview: https://www.praesidion.eu/beveiliging-limburg-regios/
 Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
+
+## Blog
+- [Objectbeveiliging zonder ruis: roosters, overdracht en duidelijke werkinstructies](https://www.praesidion.eu/blog/objectbeveiliging-zonder-ruis-roosters-overdracht/)
