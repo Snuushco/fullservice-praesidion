@@ -15,4 +15,5 @@ Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
 
 ## Blog
+- [Zzp, inhuur en beveiligingsinzet: grip op planning, dossiers en rapportage](https://www.praesidion.eu/blog/zzp-inhuur-beveiliging-planning-dossiers-rapportage/)
 - [Objectbeveiliging zonder ruis: roosters, overdracht en duidelijke werkinstructies](https://www.praesidion.eu/blog/objectbeveiliging-zonder-ruis-roosters-overdracht/)
