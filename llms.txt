@@ -15,6 +15,7 @@ Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
 
 ## Blog
+- [Beveiliging inkopen in 2026: kwaliteit, screening en duidelijke processen](https://www.praesidion.eu/blog/kwaliteit-inhuur-beveiliging-keurmerken-processen/) — veilige duiding bij het toelichtende document van de Nederlandse Veiligheidsbranche over keurmerken; praktische aandachtspunten voor inhuur, objectbeveiliging en processen; geen juridisch of certificeringsadvies.
 - [Alarmopvolging en objectbeveiliging: duidelijke afspraken na PAC-wijziging](https://www.praesidion.eu/blog/alarmopvolging-objectbeveiliging-meldkamerafspraken/) — praktische duiding van het CCV-bericht van 1 juli 2026 over intrekking van het PAC-schema; geen juridisch of certificeringsadvies.
 - [Zzp, inhuur en beveiligingsinzet: grip op planning, dossiers en rapportage](https://www.praesidion.eu/blog/zzp-inhuur-beveiliging-planning-dossiers-rapportage/)
 - [Objectbeveiliging zonder ruis: roosters, overdracht en duidelijke werkinstructies](https://www.praesidion.eu/blog/objectbeveiliging-zonder-ruis-roosters-overdracht/)
