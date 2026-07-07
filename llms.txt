@@ -15,6 +15,7 @@ Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
 
 ## Blog
+- [Flexibele inzet in evenementenbeveiliging: planning, afspraken en overdracht](https://www.praesidion.eu/blog/flexibele-inzet-evenementenbeveiliging-wpbr-planning/) — veilige duiding bij branche- en Kamer-signalen van juli 2026 over evenementenbeveiliging, Wpbr en tijdelijke inzet; nadruk op planning, instructies, overdracht en rapportage; geen juridisch advies.
 - [Zomerbezetting en toegangsbeheer: objectbeveiliging zonder blinde vlekken](https://www.praesidion.eu/blog/zomerbezetting-toegangsbeheer-objectbeveiliging/) — veilige duiding bij actuele zomer-signalen over lagere bezetting, tijdelijke toegang, bezoekers/leveranciers, zorgcontinuïteit en overdracht; geen juridisch of compliance-advies.
 - [Beveiliging inkopen in 2026: kwaliteit, screening en duidelijke processen](https://www.praesidion.eu/blog/kwaliteit-inhuur-beveiliging-keurmerken-processen/) — veilige duiding bij het toelichtende document van de Nederlandse Veiligheidsbranche over keurmerken; praktische aandachtspunten voor inhuur, objectbeveiliging en processen; geen juridisch of certificeringsadvies.
 - [Alarmopvolging en objectbeveiliging: duidelijke afspraken na PAC-wijziging](https://www.praesidion.eu/blog/alarmopvolging-objectbeveiliging-meldkamerafspraken/) — praktische duiding van het CCV-bericht van 1 juli 2026 over intrekking van het PAC-schema; geen juridisch of certificeringsadvies.
