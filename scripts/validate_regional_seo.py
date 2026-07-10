@@ -181,11 +181,14 @@ def validate_links(text: str, page: str, errors: list[str]) -> None:
         if not href.startswith("/"):
             continue
         target = href.split("#", 1)[0].split("?", 1)[0]
+        candidate = ROOT / target.lstrip("/")
         if target == "/":
             target_file = ROOT / "index.html"
+        elif candidate.suffix:
+            target_file = candidate
         else:
-            target_file = ROOT / target.strip("/") / "index.html"
-        if not target_file.exists() and target not in {"/sitemap.xml", "/llms.txt"}:
+            target_file = candidate / "index.html"
+        if not target_file.exists():
             errors.append(f"{page}: interne link bestaat niet: {href}")
 
 
