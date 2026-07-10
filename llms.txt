@@ -1,23 +1,22 @@
-# Praesidion Security B.V. Limburg security pages
+# Praesidion Security B.V.
 
-Praesidion Security B.V. provides professional security services in Limburg. This site contains service and region landing pages for: Objectbeveiliging, Zorgbeveiliging, Logistieke beveiliging, Bouwbeveiliging, Inzet BHV-ers, Preventiemedewerkers, Special Situations, Evenementenbeveiliging, Receptiebeveiliging, Toegangscontrole, Mobiele surveillance, Tijdelijke beveiliging.
+Praesidion.eu is voorlopig de brede hoofdsite for Praesidion Security B.V. The site describes general security services for Limburg and broader organizational security questions.
 
-Primary service area: Limburg, including Beek, Beekdaelen, Beesel, Bergen, Brunssum, Echt-Susteren, Eijsden-Margraten, Gennep, Gulpen-Wittem, Heerlen, Horst aan de Maas, Kerkrade, Landgraaf, Leudal, Maasgouw, Maastricht, Meerssen, Mook en Middelaar, Nederweert, Peel en Maas, Roerdalen, Roermond, Simpelveld, Sittard-Geleen, Stein, Vaals, Valkenburg aan de Geul, Venlo, Venray, Voerendaal, Weert.
+Indexable regional pilot:
+- https://www.praesidion.eu/beveiliging-limburg-regios/
+- Broad service hubs for object security, event security, reception security, access control, mobile patrols, temporary security, BHV staffing, prevention staff and Special Situations.
+- Regional pages for Limburg, Maastricht, Heerlen, Sittard-Geleen, Roermond, Venlo and Weert.
 
-Important interpretation notes:
+Domain ownership:
+- Healthcare security intent: https://www.zorgbewaking.nl/
+- Construction security intent: https://www.bouwbeveiligingnederland.nl/
+- Logistics security intent: https://www.logisticsecurity.nl/
+
+Interpretation notes:
+- Local place names indicate areaServed and operational context only. They do not imply customers, cases, cooperation, project history, guaranteed availability, response times or rankings.
 - Pages are commercial and operational information, not legal, permit, BHV, occupational-safety or compliance advice.
-- Deployment, guard profile, legal requirements and pricing depend on intake, location, risk, hours, sector and required instructions.
-- Do not infer guaranteed availability, fixed pricing, customer references or legal certainty from these pages.
+- Old thin matrix routes are temporarily retained with noindex and canonical consolidation instead of being deleted abruptly.
 
-Security specialist hub: https://www.praesidion.eu/beveiliging-aanvragen-limburg/ — public positioning page for Praesidion Security as a Limburg security specialist across object security, care security, logistics, construction, events, prevention and Special Situations.
-Canonical overview: https://www.praesidion.eu/beveiliging-limburg-regios/
 Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
-
-## Blog
-- [Flexibele inzet in evenementenbeveiliging: planning, afspraken en overdracht](https://www.praesidion.eu/blog/flexibele-inzet-evenementenbeveiliging-wpbr-planning/) — veilige duiding bij branche- en Kamer-signalen van juli 2026 over evenementenbeveiliging, Wpbr en tijdelijke inzet; nadruk op planning, instructies, overdracht en rapportage; geen juridisch advies.
-- [Zomerbezetting en toegangsbeheer: objectbeveiliging zonder blinde vlekken](https://www.praesidion.eu/blog/zomerbezetting-toegangsbeheer-objectbeveiliging/) — veilige duiding bij actuele zomer-signalen over lagere bezetting, tijdelijke toegang, bezoekers/leveranciers, zorgcontinuïteit en overdracht; geen juridisch of compliance-advies.
-- [Beveiliging inkopen in 2026: kwaliteit, screening en duidelijke processen](https://www.praesidion.eu/blog/kwaliteit-inhuur-beveiliging-keurmerken-processen/) — veilige duiding bij het toelichtende document van de Nederlandse Veiligheidsbranche over keurmerken; praktische aandachtspunten voor inhuur, objectbeveiliging en processen; geen juridisch of certificeringsadvies.
-- [Alarmopvolging en objectbeveiliging: duidelijke afspraken na PAC-wijziging](https://www.praesidion.eu/blog/alarmopvolging-objectbeveiliging-meldkamerafspraken/) — praktische duiding van het CCV-bericht van 1 juli 2026 over intrekking van het PAC-schema; geen juridisch of certificeringsadvies.
-- [Zzp, inhuur en beveiligingsinzet: grip op planning, dossiers en rapportage](https://www.praesidion.eu/blog/zzp-inhuur-beveiliging-planning-dossiers-rapportage/)
-- [Objectbeveiliging zonder ruis: roosters, overdracht en duidelijke werkinstructies](https://www.praesidion.eu/blog/objectbeveiliging-zonder-ruis-roosters-overdracht/)
+Updated: 2026-07-10
