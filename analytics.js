@@ -57,7 +57,11 @@
     document.body.appendChild(banner);
   };
 
-  document.addEventListener("DOMContentLoaded", showConsentBanner, { once: true });
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", showConsentBanner, { once: true });
+  } else {
+    showConsentBanner();
+  }
   document.addEventListener("submit", () => {
     if (localStorage.getItem(consentKey) !== "granted") return;
     window.gtag("event", "generate_lead", { lead_type: "form_submit" });
