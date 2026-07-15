@@ -17,6 +17,9 @@ Interpretation notes:
 - Pages are commercial and operational information, not legal, permit, BHV, occupational-safety or compliance advice.
 - Old thin matrix routes are temporarily retained with noindex and canonical consolidation instead of being deleted abruptly.
 
+Actueel:
+- IP-camera's bij objectbeveiliging: zes beheerafspraken: https://www.praesidion.eu/blog/ip-camera-beveiliging-objectbeveiliging-beheerafspraken/ — Praktische verdeling van eigenaarschap, netwerktoegang, accounts, updates, incidentopvolging en periodieke controle naar aanleiding van AIVD/MIVD-advies van 10 juli 2026.
+
 Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
-Updated: 2026-07-10
+Updated: 2026-07-15
