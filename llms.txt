@@ -18,9 +18,10 @@ Interpretation notes:
 - Old thin matrix routes are temporarily retained with noindex and canonical consolidation instead of being deleted abruptly.
 
 Actueel:
+- Wpbr-motie en flexibele inzet van beveiligers: https://www.praesidion.eu/blog/flexibele-inzet-evenementenbeveiliging-wpbr-planning/ — Operationele duiding van de aangenomen motie van 2 juli 2026: de regels zijn nog niet gewijzigd; planning, passen, taakafbakening en inzetdossiers blijven voorafgaande controles vragen.
 - Gastvrije objectbeveiliging: ontvangst en toegangscontrole: https://www.praesidion.eu/blog/gastvrije-objectbeveiliging-hospitality-toegangscontrole/ — Vijf praktische afspraken voor bezoekersstromen, toegang, taakafbakening, overdracht en escalatie naar aanleiding van een Nederlands marktvoorbeeld van 15 juli 2026.
 - IP-camera's bij objectbeveiliging: zes beheerafspraken: https://www.praesidion.eu/blog/ip-camera-beveiliging-objectbeveiliging-beheerafspraken/ — Praktische verdeling van eigenaarschap, netwerktoegang, accounts, updates, incidentopvolging en periodieke controle naar aanleiding van AIVD/MIVD-advies van 10 juli 2026.
 
 Sitemap: https://www.praesidion.eu/sitemap.xml
 Contact: info@praesidion.nl
-Updated: 2026-07-21
+Updated: 2026-07-22
